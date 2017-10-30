@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6059D8E1FA5C45500C0FEFF /* RESTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6059D8D1FA5C45500C0FEFF /* RESTManager.m */; };
+		A6059D8F1FA5C45500C0FEFF /* RESTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6059D8D1FA5C45500C0FEFF /* RESTManager.m */; };
+		A6059D931FA5C93900C0FEFF /* NetworkBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6059D921FA5C93900C0FEFF /* NetworkBaseManager.m */; };
+		A6059D941FA5C93900C0FEFF /* NetworkBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6059D921FA5C93900C0FEFF /* NetworkBaseManager.m */; };
+		A6059D991FA5D94A00C0FEFF /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059D981FA5D94A00C0FEFF /* Structure.swift */; };
+		A6059D9A1FA5D94A00C0FEFF /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059D981FA5D94A00C0FEFF /* Structure.swift */; };
+		A6059D9C1FA5E8BB00C0FEFF /* NestStructureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059D9B1FA5E8BB00C0FEFF /* NestStructureManager.swift */; };
+		A6059D9D1FA5E8BB00C0FEFF /* NestStructureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059D9B1FA5E8BB00C0FEFF /* NestStructureManager.swift */; };
+		A6059D9F1FA6190C00C0FEFF /* StructureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059D9E1FA6190C00C0FEFF /* StructureListViewController.swift */; };
+		A6059DA01FA6190C00C0FEFF /* StructureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059D9E1FA6190C00C0FEFF /* StructureListViewController.swift */; };
+		A6059DA41FA6231B00C0FEFF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DA31FA6231B00C0FEFF /* Repository.swift */; };
+		A6059DA51FA6231B00C0FEFF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DA31FA6231B00C0FEFF /* Repository.swift */; };
+		A6059DA71FA6261A00C0FEFF /* StructureListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DA61FA6261A00C0FEFF /* StructureListViewModel.swift */; };
+		A6059DA81FA6261A00C0FEFF /* StructureListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DA61FA6261A00C0FEFF /* StructureListViewModel.swift */; };
+		A6059DAA1FA6608100C0FEFF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DA91FA6608100C0FEFF /* Camera.swift */; };
+		A6059DAB1FA6608100C0FEFF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DA91FA6608100C0FEFF /* Camera.swift */; };
+		A6059DAD1FA664CB00C0FEFF /* CamerasListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DAC1FA664CB00C0FEFF /* CamerasListViewController.swift */; };
+		A6059DAF1FA664D500C0FEFF /* CamerasListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DAC1FA664CB00C0FEFF /* CamerasListViewController.swift */; };
+		A6059DB21FA666E500C0FEFF /* NestCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DB11FA666E500C0FEFF /* NestCameraManager.swift */; };
+		A6059DB31FA666E500C0FEFF /* NestCameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DB11FA666E500C0FEFF /* NestCameraManager.swift */; };
+		A6059DB61FA69A5F00C0FEFF /* StructureListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DB51FA69A5F00C0FEFF /* StructureListAdapter.swift */; };
+		A6059DB71FA69A5F00C0FEFF /* StructureListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DB51FA69A5F00C0FEFF /* StructureListAdapter.swift */; };
+		A6059DBA1FA69A9A00C0FEFF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DB91FA69A9A00C0FEFF /* Extensions.swift */; };
+		A6059DBB1FA69A9A00C0FEFF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DB91FA69A9A00C0FEFF /* Extensions.swift */; };
+		A6059DBD1FA69B3F00C0FEFF /* JSONProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DBC1FA69B3F00C0FEFF /* JSONProtocols.swift */; };
+		A6059DBE1FA69B3F00C0FEFF /* JSONProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DBC1FA69B3F00C0FEFF /* JSONProtocols.swift */; };
+		A6059DC01FA69B7700C0FEFF /* NestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DBF1FA69B7700C0FEFF /* NestError.swift */; };
+		A6059DC11FA69B7700C0FEFF /* NestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6059DBF1FA69B7700C0FEFF /* NestError.swift */; };
+		A61CE6011FA4A109001D55BC /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61CE6001FA4A109001D55BC /* NavigationCoordinator.swift */; };
+		A61CE6041FA4A34C001D55BC /* NestWebViewAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CE6031FA4A34C001D55BC /* NestWebViewAuthController.m */; };
+		A61CE6071FA4A3A2001D55BC /* NestConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CE6061FA4A3A2001D55BC /* NestConnectViewController.m */; };
+		A6C78AC31FA12B2800F6C551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C78AC21FA12B2800F6C551 /* AppDelegate.swift */; };
+		A6C78ACA1FA12B2800F6C551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C78AC91FA12B2800F6C551 /* Assets.xcassets */; };
+		A6C78ACD1FA12B2800F6C551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C78ACB1FA12B2800F6C551 /* LaunchScreen.storyboard */; };
+		A6C78AD81FA12B2800F6C551 /* NestCamerasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C78AD71FA12B2800F6C551 /* NestCamerasTests.swift */; };
+		A6C78AE91FA12B9D00F6C551 /* AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C78AE81FA12B9D00F6C551 /* AccessToken.m */; };
+		A6C78AEA1FA12B9D00F6C551 /* AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C78AE81FA12B9D00F6C551 /* AccessToken.m */; };
+		A6C78AEF1FA12D7400F6C551 /* NestAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C78AED1FA12D7300F6C551 /* NestAuthManager.m */; };
+		A6C78AF01FA12D7400F6C551 /* NestAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C78AED1FA12D7300F6C551 /* NestAuthManager.m */; };
+		A6C78AF41FA1325400F6C551 /* NestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C78AF31FA1325400F6C551 /* NestConfiguration.m */; };
+		A6C78AF51FA1325400F6C551 /* NestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C78AF31FA1325400F6C551 /* NestConfiguration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6C78AD41FA12B2800F6C551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6C78AB71FA12B2800F6C551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6C78ABE1FA12B2800F6C551;
+			remoteInfo = NestCameras;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6059D8C1FA5C45500C0FEFF /* RESTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTManager.h; sourceTree = "<group>"; };
+		A6059D8D1FA5C45500C0FEFF /* RESTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTManager.m; sourceTree = "<group>"; };
+		A6059D911FA5C93900C0FEFF /* NetworkBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkBaseManager.h; sourceTree = "<group>"; };
+		A6059D921FA5C93900C0FEFF /* NetworkBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkBaseManager.m; sourceTree = "<group>"; };
+		A6059D981FA5D94A00C0FEFF /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+		A6059D9B1FA5E8BB00C0FEFF /* NestStructureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestStructureManager.swift; sourceTree = "<group>"; };
+		A6059D9E1FA6190C00C0FEFF /* StructureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StructureListViewController.swift; path = StructureList/StructureListViewController.swift; sourceTree = "<group>"; };
+		A6059DA31FA6231B00C0FEFF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		A6059DA61FA6261A00C0FEFF /* StructureListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureListViewModel.swift; sourceTree = "<group>"; };
+		A6059DA91FA6608100C0FEFF /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		A6059DAC1FA664CB00C0FEFF /* CamerasListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasListViewController.swift; sourceTree = "<group>"; };
+		A6059DB11FA666E500C0FEFF /* NestCameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestCameraManager.swift; sourceTree = "<group>"; };
+		A6059DB51FA69A5F00C0FEFF /* StructureListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureListAdapter.swift; sourceTree = "<group>"; };
+		A6059DB91FA69A9A00C0FEFF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A6059DBC1FA69B3F00C0FEFF /* JSONProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONProtocols.swift; sourceTree = "<group>"; };
+		A6059DBF1FA69B7700C0FEFF /* NestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestError.swift; sourceTree = "<group>"; };
+		A61CE6001FA4A109001D55BC /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		A61CE6021FA4A34C001D55BC /* NestWebViewAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestWebViewAuthController.h; sourceTree = "<group>"; };
+		A61CE6031FA4A34C001D55BC /* NestWebViewAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestWebViewAuthController.m; sourceTree = "<group>"; };
+		A61CE6051FA4A3A2001D55BC /* NestConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestConnectViewController.h; sourceTree = "<group>"; };
+		A61CE6061FA4A3A2001D55BC /* NestConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestConnectViewController.m; sourceTree = "<group>"; };
+		A6C78ABF1FA12B2800F6C551 /* NestCameras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestCameras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C78AC21FA12B2800F6C551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6C78AC91FA12B2800F6C551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6C78ACC1FA12B2800F6C551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6C78ACE1FA12B2800F6C551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C78AD31FA12B2800F6C551 /* NestCamerasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestCamerasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C78AD71FA12B2800F6C551 /* NestCamerasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestCamerasTests.swift; sourceTree = "<group>"; };
+		A6C78AD91FA12B2800F6C551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C78AE51FA12B9C00F6C551 /* NestCameras-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NestCameras-Bridging-Header.h"; sourceTree = "<group>"; };
+		A6C78AE61FA12B9C00F6C551 /* NestCamerasTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NestCamerasTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A6C78AE71FA12B9D00F6C551 /* AccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessToken.h; sourceTree = "<group>"; };
+		A6C78AE81FA12B9D00F6C551 /* AccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessToken.m; sourceTree = "<group>"; };
+		A6C78AED1FA12D7300F6C551 /* NestAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestAuthManager.m; sourceTree = "<group>"; };
+		A6C78AEE1FA12D7400F6C551 /* NestAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestAuthManager.h; sourceTree = "<group>"; };
+		A6C78AF21FA1325400F6C551 /* NestConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestConfiguration.h; sourceTree = "<group>"; };
+		A6C78AF31FA1325400F6C551 /* NestConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestConfiguration.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C78ABC1FA12B2800F6C551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C78AD01FA12B2800F6C551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6059D861FA5C3B600C0FEFF /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				A6059D9B1FA5E8BB00C0FEFF /* NestStructureManager.swift */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		A6059D8B1FA5C44200C0FEFF /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				A6059D8C1FA5C45500C0FEFF /* RESTManager.h */,
+				A6059D8D1FA5C45500C0FEFF /* RESTManager.m */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		A6059D901FA5C91F00C0FEFF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A6059D911FA5C93900C0FEFF /* NetworkBaseManager.h */,
+				A6059D921FA5C93900C0FEFF /* NetworkBaseManager.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A6059D951FA5D6FC00C0FEFF /* NestExternal */ = {
+			isa = PBXGroup;
+			children = (
+				A61CE6021FA4A34C001D55BC /* NestWebViewAuthController.h */,
+				A61CE6031FA4A34C001D55BC /* NestWebViewAuthController.m */,
+				A61CE6051FA4A3A2001D55BC /* NestConnectViewController.h */,
+				A61CE6061FA4A3A2001D55BC /* NestConnectViewController.m */,
+			);
+			path = NestExternal;
+			sourceTree = "<group>";
+		};
+		A6059D961FA5D90A00C0FEFF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A6059DB01FA666D200C0FEFF /* Camera */,
+				A6C78AEC1FA12D2200F6C551 /* Authentification */,
+				A6059D861FA5C3B600C0FEFF /* Structure */,
+				A6059D8B1FA5C44200C0FEFF /* REST */,
+				A6059D901FA5C91F00C0FEFF /* Base */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A6059D971FA5D93000C0FEFF /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A6059D981FA5D94A00C0FEFF /* Structure.swift */,
+				A6059DA91FA6608100C0FEFF /* Camera.swift */,
+				A6059DBC1FA69B3F00C0FEFF /* JSONProtocols.swift */,
+				A6059DBF1FA69B7700C0FEFF /* NestError.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A6059DA11FA6223900C0FEFF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A6059DB41FA69A4200C0FEFF /* Adapters */,
+				A6059DA61FA6261A00C0FEFF /* StructureListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A6059DA21FA622FE00C0FEFF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				A6059DA31FA6231B00C0FEFF /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		A6059DB01FA666D200C0FEFF /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A6059DB11FA666E500C0FEFF /* NestCameraManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A6059DB41FA69A4200C0FEFF /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				A6059DB51FA69A5F00C0FEFF /* StructureListAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		A6059DB81FA69A8900C0FEFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A6059DB91FA69A9A00C0FEFF /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A61CE5FE1FA4A0B3001D55BC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A61CE6001FA4A109001D55BC /* NavigationCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A61CE5FF1FA4A0D9001D55BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6059D951FA5D6FC00C0FEFF /* NestExternal */,
+				A6059DAC1FA664CB00C0FEFF /* CamerasListViewController.swift */,
+				A6059D9E1FA6190C00C0FEFF /* StructureListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6C78AB61FA12B2800F6C551 = {
+			isa = PBXGroup;
+			children = (
+				A6059DB81FA69A8900C0FEFF /* Extensions */,
+				A6059DA11FA6223900C0FEFF /* ViewModels */,
+				A61CE5FF1FA4A0D9001D55BC /* Views */,
+				A6C78AE21FA12B5B00F6C551 /* Models */,
+				A61CE5FE1FA4A0B3001D55BC /* Coordinator */,
+				A6C78AC11FA12B2800F6C551 /* NestCameras */,
+				A6C78AEB1FA12C1A00F6C551 /* Supporting Files */,
+				A6C78AD61FA12B2800F6C551 /* NestCamerasTests */,
+				A6C78AC01FA12B2800F6C551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C78AC01FA12B2800F6C551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C78ABF1FA12B2800F6C551 /* NestCameras.app */,
+				A6C78AD31FA12B2800F6C551 /* NestCamerasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C78AC11FA12B2800F6C551 /* NestCameras */ = {
+			isa = PBXGroup;
+			children = (
+				A6C78AC21FA12B2800F6C551 /* AppDelegate.swift */,
+				A6C78AC91FA12B2800F6C551 /* Assets.xcassets */,
+				A6C78ACB1FA12B2800F6C551 /* LaunchScreen.storyboard */,
+				A6C78ACE1FA12B2800F6C551 /* Info.plist */,
+			);
+			path = NestCameras;
+			sourceTree = "<group>";
+		};
+		A6C78AD61FA12B2800F6C551 /* NestCamerasTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6C78AD71FA12B2800F6C551 /* NestCamerasTests.swift */,
+				A6C78AD91FA12B2800F6C551 /* Info.plist */,
+			);
+			path = NestCamerasTests;
+			sourceTree = "<group>";
+		};
+		A6C78AE21FA12B5B00F6C551 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6059DA21FA622FE00C0FEFF /* Repository */,
+				A6C78AE41FA12B8D00F6C551 /* AccessToken */,
+				A6C78AE31FA12B6700F6C551 /* Nest */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6C78AE31FA12B6700F6C551 /* Nest */ = {
+			isa = PBXGroup;
+			children = (
+				A6059D971FA5D93000C0FEFF /* Entities */,
+				A6059D961FA5D90A00C0FEFF /* Manager */,
+				A6C78AF11FA1323100F6C551 /* Configuration */,
+			);
+			path = Nest;
+			sourceTree = "<group>";
+		};
+		A6C78AE41FA12B8D00F6C551 /* AccessToken */ = {
+			isa = PBXGroup;
+			children = (
+				A6C78AE71FA12B9D00F6C551 /* AccessToken.h */,
+				A6C78AE81FA12B9D00F6C551 /* AccessToken.m */,
+			);
+			path = AccessToken;
+			sourceTree = "<group>";
+		};
+		A6C78AEB1FA12C1A00F6C551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C78AE51FA12B9C00F6C551 /* NestCameras-Bridging-Header.h */,
+				A6C78AE61FA12B9C00F6C551 /* NestCamerasTests-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6C78AEC1FA12D2200F6C551 /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				A6C78AEE1FA12D7400F6C551 /* NestAuthManager.h */,
+				A6C78AED1FA12D7300F6C551 /* NestAuthManager.m */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		A6C78AF11FA1323100F6C551 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A6C78AF21FA1325400F6C551 /* NestConfiguration.h */,
+				A6C78AF31FA1325400F6C551 /* NestConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C78ABE1FA12B2800F6C551 /* NestCameras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C78ADC1FA12B2800F6C551 /* Build configuration list for PBXNativeTarget "NestCameras" */;
+			buildPhases = (
+				A6C78ABB1FA12B2800F6C551 /* Sources */,
+				A6C78ABC1FA12B2800F6C551 /* Frameworks */,
+				A6C78ABD1FA12B2800F6C551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestCameras;
+			productName = NestCameras;
+			productReference = A6C78ABF1FA12B2800F6C551 /* NestCameras.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6C78AD21FA12B2800F6C551 /* NestCamerasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C78ADF1FA12B2800F6C551 /* Build configuration list for PBXNativeTarget "NestCamerasTests" */;
+			buildPhases = (
+				A6C78ACF1FA12B2800F6C551 /* Sources */,
+				A6C78AD01FA12B2800F6C551 /* Frameworks */,
+				A6C78AD11FA12B2800F6C551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6C78AD51FA12B2800F6C551 /* PBXTargetDependency */,
+			);
+			name = NestCamerasTests;
+			productName = NestCamerasTests;
+			productReference = A6C78AD31FA12B2800F6C551 /* NestCamerasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C78AB71FA12B2800F6C551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Siarhei Yakushevich";
+				TargetAttributes = {
+					A6C78ABE1FA12B2800F6C551 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					A6C78AD21FA12B2800F6C551 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6C78ABE1FA12B2800F6C551;
+					};
+				};
+			};
+			buildConfigurationList = A6C78ABA1FA12B2800F6C551 /* Build configuration list for PBXProject "NestCameras" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6C78AB61FA12B2800F6C551;
+			productRefGroup = A6C78AC01FA12B2800F6C551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C78ABE1FA12B2800F6C551 /* NestCameras */,
+				A6C78AD21FA12B2800F6C551 /* NestCamerasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C78ABD1FA12B2800F6C551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C78ACD1FA12B2800F6C551 /* LaunchScreen.storyboard in Resources */,
+				A6C78ACA1FA12B2800F6C551 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C78AD11FA12B2800F6C551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C78ABB1FA12B2800F6C551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6059D931FA5C93900C0FEFF /* NetworkBaseManager.m in Sources */,
+				A6059DAD1FA664CB00C0FEFF /* CamerasListViewController.swift in Sources */,
+				A61CE6041FA4A34C001D55BC /* NestWebViewAuthController.m in Sources */,
+				A6059DA41FA6231B00C0FEFF /* Repository.swift in Sources */,
+				A61CE6071FA4A3A2001D55BC /* NestConnectViewController.m in Sources */,
+				A6059DA71FA6261A00C0FEFF /* StructureListViewModel.swift in Sources */,
+				A6C78AF41FA1325400F6C551 /* NestConfiguration.m in Sources */,
+				A6059DBA1FA69A9A00C0FEFF /* Extensions.swift in Sources */,
+				A6059DB61FA69A5F00C0FEFF /* StructureListAdapter.swift in Sources */,
+				A6059D9F1FA6190C00C0FEFF /* StructureListViewController.swift in Sources */,
+				A6C78AC31FA12B2800F6C551 /* AppDelegate.swift in Sources */,
+				A6C78AE91FA12B9D00F6C551 /* AccessToken.m in Sources */,
+				A6059DC01FA69B7700C0FEFF /* NestError.swift in Sources */,
+				A61CE6011FA4A109001D55BC /* NavigationCoordinator.swift in Sources */,
+				A6059D9C1FA5E8BB00C0FEFF /* NestStructureManager.swift in Sources */,
+				A6059DBD1FA69B3F00C0FEFF /* JSONProtocols.swift in Sources */,
+				A6059DB21FA666E500C0FEFF /* NestCameraManager.swift in Sources */,
+				A6059DAA1FA6608100C0FEFF /* Camera.swift in Sources */,
+				A6059D8E1FA5C45500C0FEFF /* RESTManager.m in Sources */,
+				A6C78AEF1FA12D7400F6C551 /* NestAuthManager.m in Sources */,
+				A6059D991FA5D94A00C0FEFF /* Structure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C78ACF1FA12B2800F6C551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C78AF51FA1325400F6C551 /* NestConfiguration.m in Sources */,
+				A6059D8F1FA5C45500C0FEFF /* RESTManager.m in Sources */,
+				A6059DA81FA6261A00C0FEFF /* StructureListViewModel.swift in Sources */,
+				A6C78AF01FA12D7400F6C551 /* NestAuthManager.m in Sources */,
+				A6059D9D1FA5E8BB00C0FEFF /* NestStructureManager.swift in Sources */,
+				A6059D9A1FA5D94A00C0FEFF /* Structure.swift in Sources */,
+				A6059DB31FA666E500C0FEFF /* NestCameraManager.swift in Sources */,
+				A6059DBE1FA69B3F00C0FEFF /* JSONProtocols.swift in Sources */,
+				A6059D941FA5C93900C0FEFF /* NetworkBaseManager.m in Sources */,
+				A6C78AD81FA12B2800F6C551 /* NestCamerasTests.swift in Sources */,
+				A6059DAB1FA6608100C0FEFF /* Camera.swift in Sources */,
+				A6059DB71FA69A5F00C0FEFF /* StructureListAdapter.swift in Sources */,
+				A6059DC11FA69B7700C0FEFF /* NestError.swift in Sources */,
+				A6059DBB1FA69A9A00C0FEFF /* Extensions.swift in Sources */,
+				A6059DAF1FA664D500C0FEFF /* CamerasListViewController.swift in Sources */,
+				A6C78AEA1FA12B9D00F6C551 /* AccessToken.m in Sources */,
+				A6059DA01FA6190C00C0FEFF /* StructureListViewController.swift in Sources */,
+				A6059DA51FA6231B00C0FEFF /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6C78AD51FA12B2800F6C551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6C78ABE1FA12B2800F6C551 /* NestCameras */;
+			targetProxy = A6C78AD41FA12B2800F6C551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6C78ACB1FA12B2800F6C551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C78ACC1FA12B2800F6C551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C78ADA1FA12B2800F6C551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6C78ADB1FA12B2800F6C551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C78ADD1FA12B2800F6C551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44P2L32FL4;
+				INFOPLIST_FILE = NestCameras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.test.NestCameras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./Supporting Files/NestCameras-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C78ADE1FA12B2800F6C551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44P2L32FL4;
+				INFOPLIST_FILE = NestCameras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.test.NestCameras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./Supporting Files/NestCameras-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6C78AE01FA12B2800F6C551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44P2L32FL4;
+				INFOPLIST_FILE = NestCamerasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.test.NestCamerasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Models/Nest/AccessToken/NestCamerasTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestCameras.app/NestCameras";
+			};
+			name = Debug;
+		};
+		A6C78AE11FA12B2800F6C551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44P2L32FL4;
+				INFOPLIST_FILE = NestCamerasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.test.NestCamerasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Models/Nest/AccessToken/NestCamerasTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestCameras.app/NestCameras";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C78ABA1FA12B2800F6C551 /* Build configuration list for PBXProject "NestCameras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C78ADA1FA12B2800F6C551 /* Debug */,
+				A6C78ADB1FA12B2800F6C551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C78ADC1FA12B2800F6C551 /* Build configuration list for PBXNativeTarget "NestCameras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C78ADD1FA12B2800F6C551 /* Debug */,
+				A6C78ADE1FA12B2800F6C551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C78ADF1FA12B2800F6C551 /* Build configuration list for PBXNativeTarget "NestCamerasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C78AE01FA12B2800F6C551 /* Debug */,
+				A6C78AE11FA12B2800F6C551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C78AB71FA12B2800F6C551 /* Project object */;
+}
